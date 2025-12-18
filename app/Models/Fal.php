@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Fal extends Model
 {
-    //
+    protected  $fillable = ['name', 'mobile'];
 }

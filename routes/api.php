@@ -28,6 +28,7 @@ Route::put('user', function (Request $request) {
 
 
 Route::post('fal/user', function (Request $request) {
+
     $user = Fal::updateOrCreate(
         ['mobile' => $request->mobile],
         [
